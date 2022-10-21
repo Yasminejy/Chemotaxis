@@ -36,10 +36,6 @@ Walker rick;
     i++;
   }
   }
-   void mousePressed()
-{
-  redraw();
-}
   
  void draw()   
  {    
@@ -55,9 +51,5 @@ Walker rick;
     silversprings[1].show();
     silversprings[2].move();
     silversprings[2].show(); 
- }  
- class Bacteria    
- {     
-   //lots of java!   
  }    
  }
