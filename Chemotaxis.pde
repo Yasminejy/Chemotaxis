@@ -51,5 +51,5 @@ Walker rick;
     silversprings[1].show();
     silversprings[2].move();
     silversprings[2].show(); 
- }    
+ }   
  }
