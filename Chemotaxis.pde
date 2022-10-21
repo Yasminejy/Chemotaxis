@@ -9,7 +9,9 @@
   {
     myX=myX+(int)(Math.random()*10)+0;
     myY=myY+(int)(Math.random()*10)+10;
-    
+    if(myX>501|| 0>myX || myY>501|| 0>myY){
+      myX= myY=250; 
+    }
   }
   void show() {
     rect(180,200,200,100);
