@@ -1,6 +1,6 @@
-class Walker
+ class Walker
 {
-  int myX, myY, myC;
+  int myX, myY, myC,i;
   Walker()
   {
     myX= myY= 250;
@@ -10,14 +10,13 @@ class Walker
     myX=myX+(int)(Math.random()*10)+0;
     myY=myY+(int)(Math.random()*10)+10;
     
-    
   }
   void show() {
     rect(180,200,200,100);
     ellipse(280,180,90,90);
    fill((int)(Math.random()*256),(int)(Math.random()*256),(int)(Math.random()*256));
-   ellipse(myX,myY,30,30);
-  }
+   ellipse(myX,myY,30,30);  
+}
 }
 Walker rick;
   Walker [] silversprings= {new Walker(), new Walker(), new Walker()};
@@ -59,4 +58,4 @@ Walker rick;
  {     
    //lots of java!   
  }    
- }  
+ }
